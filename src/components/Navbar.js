@@ -69,18 +69,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
+            
 
             <Nav.Item>
               <Nav.Link
@@ -94,16 +83,7 @@ function NavBar() {
 
            
 
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/Sukeshani3903/Sukeshani_Portfilo1.git"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
